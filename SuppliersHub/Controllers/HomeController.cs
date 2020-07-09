@@ -10,7 +10,7 @@ namespace SuppliersHub.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("login","Account");
         }
 
         public ActionResult About()
